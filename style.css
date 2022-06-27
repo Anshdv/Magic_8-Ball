@@ -1,0 +1,129 @@
+.body{
+    text-align: center;
+    background-color: forestgreen;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.eight{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+}
+
+.answer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-55%, -95%);
+
+    visibility: hidden;
+    width: 100px;
+}
+
+.outer_circle{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    align-items: center;
+
+}
+
+.inner_circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    align-items: center;
+
+}
+
+.button{
+    width: 180px;
+    height: 84px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.triangle{
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-top: 150px solid blue;
+    visibility: hidden;
+
+}
+
+.shiny{
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    background-color: rgba(225, 225, 225);
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-475%, -475%);
+
+}
+
+.shiny2{
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    background-color: rgba(225, 225, 225);
+    width: 20px;
+    height: 20px;
+    
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-600%, -750%);
+
+}
+
+.button:hover{
+    background-color: lightcoral;
+}
